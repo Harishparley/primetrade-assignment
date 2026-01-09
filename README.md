@@ -28,7 +28,7 @@ JWT_SECRET=secretkey123
 PORT=5000
 
 4. Start the server:
-Bash
+```bash
 npx nodemon server.js
 
 Note: Keep this terminal OPEN. Do not close it.
@@ -37,12 +37,12 @@ Note: Keep this terminal OPEN. Do not close it.
 1. Open a NEW terminal (or split the current one).
 
 2. Navigate to the client folder and install dependencies:
-Bash
+```bash
 cd client
 npm install
 
 3. Start the React app:
-Bash
+```bash
 npm run dev
 
 ### Open the link shown (usually http://localhost:5173) in your browser.
